@@ -1,0 +1,34 @@
+h1 {
+    border-bottom: 3px solid #242e49;
+    color:#242e49;
+    font-size: 40px;
+    margin: 50px 350px 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+label {
+    font-size: 25px;
+}
+button {
+    font-size: 20px;
+
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    color: #242e49;
+}
+
+.video-wallpaper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; /* Send the video to the background */
+}
